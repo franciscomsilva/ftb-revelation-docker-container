@@ -10,5 +10,6 @@ This custom images enables:
 
 
 ## Instalation
-* Have docker and docker-compose install
+* Install docker and docker-compose
+* Change the volume map to your host's server location path
 * `cd server-folder && docker-compose up -d` 
