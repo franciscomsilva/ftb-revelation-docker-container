@@ -11,5 +11,10 @@ This custom images enables:
 
 ## Instalation
 * Install docker and docker-compose
-* Change the volume map to your host's server location path
+* Change the volume map in `docker-compose.yml` to your host's server location path (default is `/home/user/ftbserver/data`)
 * `cd server-folder && docker-compose up -d` 
+
+## Execute server commands
+* Connect with the container by running `docker attach ftbserver` 
+* Write `/help` to get a list of the available commands
+* To exit the command line press CTRL+P + CTRL+Q
