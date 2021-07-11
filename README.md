@@ -9,10 +9,10 @@ This custom images enables:
 * maps the entire data folder to the host to facilitate interacting with server files
 
 
-## Instalation
+## Instalation (assuming user=`minecraft` and server directory=`/home/minecraft/ftbserver`)
 * Install docker and docker-compose
-* Change the volume map in `docker-compose.yml` to your host's server location path (default is `/home/user/ftbserver/data`)
-* `cd server-folder && docker-compose up -d` 
+* Change the volume map in `docker-compose.yml` to your host's server location path (default is `/home/minecraft/ftbserver/data`)
+* `cd /home/minecraft/ftbserver && docker-compose up -d` 
 
 ## Execute server commands
 * Connect with the container by running `docker attach ftbserver` 

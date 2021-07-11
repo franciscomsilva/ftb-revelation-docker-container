@@ -4,7 +4,7 @@ services:
     build: .
     container_name: ftbserver
     volumes:
-      - /home/user/ftbserver/data:/minecraft
+      - /home/minecraft/ftbserver/data:/minecraft
     ports:
       - 25565:25565
     restart: unless-stopped
